@@ -1,0 +1,7 @@
+.container__header{
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.2rem 0.5rem #86868680;
+}

@@ -1,0 +1,74 @@
+.container__addcontact{
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.back-contact-list-btn{
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    background: rgb(0, 0, 179);
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: 1rem auto;
+    transition: all 300ms ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.back-contact-list-btn:hover{
+    background: transparent;
+    border-color: rgb(0, 0, 179);
+    color: rgb(0, 0, 179);
+}
+
+.wrapper{
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 0.5rem;
+}
+.contact__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input__element{
+    display: grid;
+    gap: 0.4rem;
+}
+
+.input__element > label{
+    font-weight: 700;
+}
+
+.input__element > input{
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    border-bottom-color: rgb(0, 0, 179);
+    outline: none;
+}
+
+.contact__form > button{
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    background: rgb(0, 0, 179);
+    color: white;
+    margin: 0 auto;
+    transition: all 300ms ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact__form > button:hover{
+    background: transparent;
+    border-color: rgb(0, 0, 179);
+    color: rgb(0, 0, 179);
+}

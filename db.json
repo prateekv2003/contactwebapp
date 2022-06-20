@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": "84135-621b-87f0-eff-bdf4424cdb",
+      "name": "Prateek Vishwakarma",
+      "email": "prateekv2003@gmail.com",
+      "phone": "9967508702"
+    },
+    {
+      "id": "585d4cf-2ec-ec62-a54-a5ec5bdcaf8",
+      "name": "Gungun Vishwakarma",
+      "email": "vgungun2003@gmail.com",
+      "phone": "9967508702"
+    },
+    {
+      "id": "c7f07f3-35eb-1e84-cc3-8fdafe424f",
+      "name": "Pratham Vishwakarma",
+      "email": "prathamv2000@gmail.com",
+      "phone": "8779635838"
+    },
+    {
+      "id": "766b43f-cc1-414b-2c61-ce12a06f85cc",
+      "name": "PIXO",
+      "email": "admin@gmail.com",
+      "phone": "1234567890"
+    }
+  ]
+}

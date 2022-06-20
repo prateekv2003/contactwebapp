@@ -1,0 +1,48 @@
+import React, { useState } from 'react'
+import {Link, useNavigate} from 'react-router-dom'
+import './addContact.css'
+
+const AddContact = (props)=>{
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+
+  const navigate = useNavigate();
+
+  const add = (e) => {
+    e.preventDefault();
+    if(name === "" || email === ""){
+      alert("All the fields are mandatory!");
+      return
+    }
+    props.addContactsHandler({name, email});
+    setName("");
+    setEmail("");
+    navigate("/");
+    console.log(props);
+    console.log({name, email});
+  }
+  return (
+    <div className='container__addcontact'>
+      <Link className="back-contact-list-btn" to="/">
+        Back to Contact List
+      </Link>
+      <div className='wrapper'>
+        <h1>Add Contact</h1>
+        <form action="#" className='contact__form' onSubmit={add}>
+          <div className='input__element'>
+              <label>Name</label>
+              <input type="text" name="name" id="name" placeholder='Name' value={name} onChange={(e)=> setName(e.target.value)}/>
+          </div>
+          <div className='input__element'>
+              <label>Email</label>
+              <input type="text" name="email" id="email" placeholder='Email' value={email} onChange={(e)=> setEmail(e.target.value)}/>
+          </div>
+          <button type='submit'>Add Contact</button>
+        </form>
+      </div>
+    </div>
+  ) 
+}
+
+
+export default AddContact;

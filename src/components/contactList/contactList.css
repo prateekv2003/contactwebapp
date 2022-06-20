@@ -1,0 +1,66 @@
+.container__contactlist > h1 {
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.add-contact-btn{
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    background: rgb(0, 0, 179);
+    color: white;
+    margin: 1rem auto;
+    transition: all 300ms ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-contact-btn:hover{
+    background: transparent;
+    border-color: rgb(0, 0, 179);
+    color: rgb(0, 0, 179);
+}
+
+.search-bar_div{
+    margin:0 auto;
+    width: fit-content;
+    margin: 1rem auto;
+    /* height: auto; */
+    display: flex;
+}
+
+.search-bar{
+    width: 20rem;
+    /* font-size: 25px; */
+    padding: 0.3rem;
+    border-radius: 0%;
+    outline: none;
+    border: 2px solid rgb(0, 0, 179);
+    border-right: none;
+}
+
+.search-btn{
+    padding: 0.5rem;
+    border-radius: 0%;
+    line-height: 0%;
+    background: rgb(0, 0, 179);
+    border: 1px solid transparent;
+    color: rgb(227, 227, 227);
+}
+
+.search-btn:hover{
+    background: rgb(0, 0, 120);
+    color: white;
+}
+
+.contact__list{
+    display: grid;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: 0 0 0.5rem;
+    padding: 0.6rem;
+    gap: 1rem;
+}
